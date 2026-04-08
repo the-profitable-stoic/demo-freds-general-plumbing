@@ -1,0 +1,612 @@
+{
+  "business": {
+    "name": "Freds General Plumbing",
+    "phone": "+18179196820",
+    "category": "plumbing company",
+    "city": "Arlington",
+    "state": "TX"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-red-charge",
+      "categoryGroup": "roofing",
+      "name": "Red Charge",
+      "recipeFile": "roofing/red-charge.astro",
+      "colors": {
+        "primary": "#1F3A56",
+        "primaryDark": "#152B42",
+        "primaryLight": "#D0DCE8",
+        "secondary": "#2B4C6F",
+        "accent": "#DC143C",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#1F3A56",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Arlington's Trusted Plumbing Experts",
+      "heroSubline": "Reliable plumbing services for homes and businesses in Arlington and surrounding areas. Get fast, professional service you can depend on.",
+      "aboutTitle": "Your Local Plumbing Solution",
+      "aboutText": [
+        "Freds General Plumbing started with a simple goal: to provide honest, reliable plumbing services to our neighbors in Arlington, TX. We've seen it all, from burst pipes during ice storms to clogged drains in older homes, and we're equipped to handle any plumbing challenge.",
+        "Our approach is straightforward: diagnose the problem accurately, explain the solution clearly, and execute the repair efficiently. We value integrity and transparency in every job we undertake. No hidden fees, no shortcuts, just quality workmanship.",
+        "We're proud to be a part of the Arlington community. We support local schools and charities, and we're committed to providing exceptional service that keeps our city running smoothly. When you choose Freds General Plumbing, you're choosing a neighbor who cares."
+      ],
+      "valueProps": [
+        {
+          "title": "24/7 Emergency Service",
+          "description": "Plumbing emergencies don't wait, and neither do we. We're available around the clock to handle your urgent plumbing needs."
+        },
+        {
+          "title": "Experienced Technicians",
+          "description": "Our team consists of licensed and highly trained plumbers with years of experience in the Dallas-Fort Worth area."
+        },
+        {
+          "title": "Upfront Pricing",
+          "description": "We provide clear, detailed estimates before we start any work, so you know exactly what to expect."
+        },
+        {
+          "title": "Guaranteed Satisfaction",
+          "description": "We stand behind our work. If you're not completely satisfied, we'll make it right."
+        }
+      ],
+      "ctaHeadline": "Solve Your Plumbing Problems Today",
+      "ctaSubline": "Call Freds General Plumbing now for fast, reliable service in Arlington and beyond."
+    },
+    "services": [
+      {
+        "slug": "drain-cleaning",
+        "name": "Drain Cleaning",
+        "shortDescription": "Stop struggling with slow or clogged drains. We clear them fast!",
+        "description": "Clogged drains are a common nuisance, especially in older Arlington homes with aging pipes. Hair, grease, food scraps, and mineral buildup can all contribute to blockages. Freds General Plumbing offers comprehensive drain cleaning services to restore proper flow and prevent future problems.\n\nWe use a variety of techniques, including drain snaking, hydro jetting, and enzymatic cleaners, to effectively remove obstructions without damaging your pipes. Our experienced technicians will assess the situation, identify the cause of the clog, and recommend the best solution for your specific needs. We handle everything from simple sink clogs to complex sewer line blockages.\n\nRegular drain cleaning can prevent costly repairs down the road and keep your plumbing system running smoothly. Don't wait until a minor clog turns into a major headache. Contact Freds General Plumbing today for fast, reliable drain cleaning services.",
+        "process": [
+          "Step 1: Diagnose the clog with camera inspection.",
+          "Step 2: Clear the blockage using snaking or hydro jetting.",
+          "Step 3: Inspect the drain to ensure complete removal of debris.",
+          "Step 4: Provide recommendations for preventing future clogs."
+        ],
+        "benefits": [
+          "Fast and effective drain clearing",
+          "Prevention of future clogs",
+          "Improved water flow",
+          "Elimination of foul odors"
+        ],
+        "faq": [
+          {
+            "question": "How often should I have my drains cleaned?",
+            "answer": "We recommend having your drains cleaned at least once a year, or more frequently if you experience recurring clogs."
+          },
+          {
+            "question": "What is hydro jetting?",
+            "answer": "Hydro jetting uses high-pressure water to blast away stubborn clogs and buildup from the inside of your pipes."
+          },
+          {
+            "question": "Is drain cleaner safe for my pipes?",
+            "answer": "Chemical drain cleaners can damage your pipes and are often ineffective. We recommend professional drain cleaning services for safe and effective results."
+          }
+        ]
+      },
+      {
+        "slug": "water-heater-repair",
+        "name": "Water Heater Repair & Installation",
+        "shortDescription": "Get hot water back fast with our expert water heater services.",
+        "description": "A malfunctioning water heater can disrupt your daily routine, especially during Arlington's occasional cold snaps. Whether you're dealing with a leak, insufficient hot water, or a complete breakdown, Freds General Plumbing is here to help. We offer comprehensive water heater repair and installation services for both traditional tank and tankless systems.\n\nOur experienced technicians are trained to diagnose and repair all types of water heater problems. We use high-quality parts and proven techniques to ensure lasting repairs. If your water heater is beyond repair, we can help you choose a new, energy-efficient model that fits your needs and budget.\n\nWe understand the importance of having reliable hot water, so we offer prompt and professional service. Don't suffer through cold showers any longer. Contact Freds General Plumbing today for expert water heater repair and installation services.",
+        "process": [
+          "Step 1: Diagnose the water heater problem.",
+          "Step 2: Provide a detailed repair or replacement estimate.",
+          "Step 3: Perform the repair or install a new water heater.",
+          "Step 4: Test the system to ensure proper operation."
+        ],
+        "benefits": [
+          "Fast and reliable hot water",
+          "Energy-efficient water heaters",
+          "Expert installation and repair",
+          "Extended lifespan of your water heater"
+        ],
+        "faq": [
+          {
+            "question": "How long does a water heater typically last?",
+            "answer": "A traditional tank water heater typically lasts 8-12 years, while a tankless water heater can last 20 years or more."
+          },
+          {
+            "question": "What are the benefits of a tankless water heater?",
+            "answer": "Tankless water heaters provide on-demand hot water, saving energy and space compared to traditional tank models."
+          },
+          {
+            "question": "How do I know if my water heater needs to be replaced?",
+            "answer": "Signs that your water heater needs to be replaced include leaks, rust, insufficient hot water, and unusual noises."
+          }
+        ]
+      },
+      {
+        "slug": "leak-detection",
+        "name": "Leak Detection",
+        "shortDescription": "Find and fix hidden leaks before they cause major damage.",
+        "description": "Hidden leaks can cause significant damage to your home, leading to mold growth, structural problems, and high water bills. In Arlington, with its mix of older and newer homes, undetected leaks are a common concern. Freds General Plumbing offers advanced leak detection services to identify and repair hidden leaks before they cause extensive damage.\n\nWe use state-of-the-art equipment, including acoustic listening devices and thermal imaging cameras, to pinpoint the source of leaks behind walls, under floors, and in underground pipes. Our experienced technicians are trained to interpret the data and accurately locate even the most elusive leaks.\n\nOnce we've identified the leak, we'll provide a detailed repair plan and execute the repairs efficiently and effectively. Don't let a hidden leak drain your wallet and damage your home. Contact Freds General Plumbing today for professional leak detection services.",
+        "process": [
+          "Step 1: Perform a comprehensive inspection of your plumbing system.",
+          "Step 2: Utilize advanced leak detection equipment to locate hidden leaks.",
+          "Step 3: Provide a detailed report of findings and a repair plan.",
+          "Step 4: Execute the repairs with minimal disruption to your property."
+        ],
+        "benefits": [
+          "Accurate leak detection",
+          "Prevention of water damage",
+          "Reduced water bills",
+          "Protection of your home's structural integrity"
+        ],
+        "faq": [
+          {
+            "question": "How can I tell if I have a hidden leak?",
+            "answer": "Signs of a hidden leak include unexplained increases in your water bill, damp spots on walls or floors, and the sound of running water when no fixtures are in use."
+          },
+          {
+            "question": "What types of equipment do you use for leak detection?",
+            "answer": "We use acoustic listening devices, thermal imaging cameras, and other specialized equipment to locate hidden leaks."
+          },
+          {
+            "question": "How much does leak detection cost?",
+            "answer": "The cost of leak detection depends on the complexity of the job. We provide upfront estimates before we begin any work."
+          }
+        ]
+      },
+      {
+        "slug": "pipe-repair",
+        "name": "Pipe Repair & Replacement",
+        "shortDescription": "Reliable pipe repair and replacement services to protect your home.",
+        "description": "Damaged or aging pipes can lead to leaks, low water pressure, and even property damage. Freds General Plumbing offers comprehensive pipe repair and replacement services to ensure the integrity of your plumbing system. We understand that Arlington homes, particularly those built in the mid-20th century, often have outdated or corroded piping that requires expert attention.\n\nWe handle all types of pipe repairs, from minor leaks to major bursts. Our experienced technicians are skilled in working with various piping materials, including copper, PVC, and PEX. We use high-quality materials and proven techniques to ensure lasting repairs.\n\nIf your pipes are severely damaged or outdated, we can replace them with new, durable materials. We'll work efficiently to minimize disruption to your home and restore your plumbing system to optimal condition. Don't let damaged pipes compromise your home's safety and value. Contact Freds General Plumbing today for reliable pipe repair and replacement services.",
+        "process": [
+          "Step 1: Assess the condition of your pipes and identify any damage.",
+          "Step 2: Provide a detailed repair or replacement estimate.",
+          "Step 3: Execute the repairs or replace the damaged pipes.",
+          "Step 4: Test the system to ensure proper operation and leak-free connections."
+        ],
+        "benefits": [
+          "Reliable pipe repairs",
+          "Improved water pressure",
+          "Prevention of water damage",
+          "Increased lifespan of your plumbing system"
+        ],
+        "faq": [
+          {
+            "question": "What are the signs of a damaged pipe?",
+            "answer": "Signs of a damaged pipe include leaks, low water pressure, discolored water, and unusual noises."
+          },
+          {
+            "question": "What types of piping materials do you work with?",
+            "answer": "We work with copper, PVC, PEX, and other common piping materials."
+          },
+          {
+            "question": "How long does pipe repair or replacement take?",
+            "answer": "The duration of pipe repair or replacement depends on the extent of the damage and the complexity of the job. We provide upfront estimates with estimated timelines."
+          }
+        ]
+      },
+      {
+        "slug": "sewer-line-services",
+        "name": "Sewer Line Services",
+        "shortDescription": "Expert sewer line repair, replacement, and cleaning for Arlington homes.",
+        "description": "Sewer line problems can be messy, disruptive, and even hazardous. Freds General Plumbing offers comprehensive sewer line services to address everything from minor clogs to major breaks. We understand the unique challenges posed by Arlington's soil conditions and aging infrastructure.\n\nWe use advanced techniques, such as video camera inspection, to diagnose the problem accurately. We can clear clogs, repair damaged sections of the sewer line, or replace the entire line if necessary. We offer both traditional trenching methods and trenchless techniques to minimize disruption to your property.\n\nOur experienced technicians are equipped to handle any sewer line challenge. We'll work quickly and efficiently to restore your sewer system to optimal condition. Don't let sewer line problems disrupt your life. Contact Freds General Plumbing today for expert sewer line services.",
+        "process": [
+          "Step 1: Perform a video camera inspection to diagnose the sewer line problem.",
+          "Step 2: Provide a detailed repair or replacement estimate.",
+          "Step 3: Clear clogs, repair damaged sections, or replace the sewer line.",
+          "Step 4: Test the system to ensure proper operation and leak-free connections."
+        ],
+        "benefits": [
+          "Effective sewer line repairs",
+          "Prevention of sewage backups",
+          "Improved drainage",
+          "Protection of your property from contamination"
+        ],
+        "faq": [
+          {
+            "question": "What are the signs of a sewer line problem?",
+            "answer": "Signs of a sewer line problem include sewage backups, slow drains, foul odors, and gurgling sounds in your plumbing system."
+          },
+          {
+            "question": "What is video camera inspection?",
+            "answer": "Video camera inspection allows us to visually inspect the inside of your sewer line to identify the cause of the problem."
+          },
+          {
+            "question": "What is trenchless sewer line repair?",
+            "answer": "Trenchless sewer line repair involves repairing or replacing the sewer line without digging a large trench, minimizing disruption to your property."
+          }
+        ]
+      },
+      {
+        "slug": "fixture-installation",
+        "name": "Fixture Installation",
+        "shortDescription": "Upgrade your home with professional faucet, sink, and toilet installation.",
+        "description": "Upgrading your fixtures can enhance the look and functionality of your kitchen and bathrooms. Freds General Plumbing offers professional fixture installation services for faucets, sinks, toilets, showers, and more. We understand the importance of proper installation to ensure long-lasting performance and prevent leaks.\n\nOur experienced technicians are skilled in installing all types of fixtures, from basic models to high-end designs. We'll handle everything from removing the old fixture to connecting the new one to the plumbing system. We'll also ensure that the new fixture meets all local codes and regulations.\n\nWhether you're remodeling your entire bathroom or simply replacing a leaky faucet, Freds General Plumbing is here to help. Contact us today for professional fixture installation services.",
+        "process": [
+          "Step 1: Remove the old fixture carefully.",
+          "Step 2: Prepare the area for the new fixture.",
+          "Step 3: Install the new fixture according to manufacturer's instructions.",
+          "Step 4: Test the system to ensure proper operation and leak-free connections."
+        ],
+        "benefits": [
+          "Proper fixture installation",
+          "Prevention of leaks",
+          "Improved functionality",
+          "Enhanced aesthetics"
+        ],
+        "faq": [
+          {
+            "question": "What types of fixtures do you install?",
+            "answer": "We install faucets, sinks, toilets, showers, bathtubs, and more."
+          },
+          {
+            "question": "Do I need to purchase the new fixture myself?",
+            "answer": "You can purchase the new fixture yourself, or we can help you choose one from our selection of high-quality products."
+          },
+          {
+            "question": "How long does fixture installation take?",
+            "answer": "The duration of fixture installation depends on the type of fixture and the complexity of the job. We provide upfront estimates with estimated timelines."
+          }
+        ]
+      },
+      {
+        "slug": "gas-line-services",
+        "name": "Gas Line Services",
+        "shortDescription": "Safe and reliable gas line repair, installation, and inspection.",
+        "description": "Gas line work requires specialized expertise to ensure safety and prevent dangerous leaks. Freds General Plumbing offers comprehensive gas line services, including repair, installation, and inspection. We adhere to the strictest safety standards and regulations to protect your home and family.\n\nOur licensed and experienced technicians are trained to handle all types of gas line work, from repairing minor leaks to installing new gas lines for appliances. We use specialized equipment to detect gas leaks and ensure that all connections are secure.\n\nIf you suspect a gas leak, evacuate the premises immediately and call us from a safe location. We'll respond quickly to assess the situation and make the necessary repairs. Contact Freds General Plumbing today for safe and reliable gas line services.",
+        "process": [
+          "Step 1: Detect gas leaks using specialized equipment.",
+          "Step 2: Repair or replace damaged gas lines.",
+          "Step 3: Install new gas lines for appliances.",
+          "Step 4: Inspect gas lines to ensure safety and compliance."
+        ],
+        "benefits": [
+          "Safe and reliable gas line services",
+          "Prevention of gas leaks",
+          "Compliance with safety regulations",
+          "Peace of mind"
+        ],
+        "faq": [
+          {
+            "question": "What should I do if I smell gas?",
+            "answer": "If you smell gas, evacuate the premises immediately and call us from a safe location."
+          },
+          {
+            "question": "Are you licensed to perform gas line work?",
+            "answer": "Yes, all of our technicians are licensed and experienced in gas line work."
+          },
+          {
+            "question": "What types of gas line services do you offer?",
+            "answer": "We offer gas line repair, installation, and inspection services."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Dallas",
+        "slug": "dallas-tx",
+        "state": "TX",
+        "content": "Freds General Plumbing is proud to serve the vibrant city of Dallas, Texas. From the historic homes in Oak Cliff to the bustling downtown area, we provide reliable plumbing services to meet the diverse needs of Dallas residents. We understand the unique plumbing challenges presented by the older 1950s ranch-style homes prevalent in many established Dallas neighborhoods, and we're equipped to handle everything from leaky pipes to complete system replacements.\n\nOur team is experienced in dealing with the specific issues that arise in Dallas, such as the impact of the hot, humid summers on plumbing systems. We offer a full range of services, including drain cleaning, water heater repair, and emergency plumbing assistance. Freds General Plumbing is committed to providing Dallas homeowners with quality workmanship and exceptional customer service.",
+        "localContext": "Dallas boasts a mix of architectural styles, with many homes in the older neighborhoods dating back to the mid-20th century and earlier. The climate is characterized by hot, humid summers and mild winters.",
+        "nearbyAreas": [
+          "Irving",
+          "Garland",
+          "Mesquite"
+        ]
+      },
+      {
+        "city": "Fort Worth",
+        "slug": "fort-worth-tx",
+        "state": "TX",
+        "content": "Freds General Plumbing is dedicated to providing top-notch plumbing services to the residents of Fort Worth, Texas. Known for its rich history and vibrant cultural scene, Fort Worth presents unique plumbing needs, especially in areas with older homes. We specialize in servicing the charming Craftsman bungalows found near the downtown area, ensuring their plumbing systems are up-to-date and functioning efficiently.\n\nWe understand the challenges posed by the hot, humid summers in Fort Worth and offer solutions to protect your plumbing from the elements. Whether you need a simple repair or a complete plumbing overhaul, Freds General Plumbing is here to help. We are committed to providing reliable and affordable plumbing services with a focus on customer satisfaction.",
+        "localContext": "Fort Worth features a blend of historic architecture, particularly Craftsman bungalows near downtown, and a climate marked by hot, humid summers.",
+        "nearbyAreas": [
+          "Arlington",
+          "Haltom City",
+          "Benbrook"
+        ]
+      },
+      {
+        "city": "Plano",
+        "slug": "plano-tx",
+        "state": "TX",
+        "content": "Freds General Plumbing is pleased to offer comprehensive plumbing services to the residents of Plano, Texas. With its established subdivisions built primarily in the 1980s and 1990s, Plano homes often require specific plumbing solutions to address aging systems and evolving needs. We are experienced in handling the common plumbing issues found in these homes, from pipe corrosion to outdated fixtures.\n\nOur team is well-equipped to handle the demands of Plano's climate, particularly the hot, humid summers. We offer a wide range of services, including leak detection, water heater maintenance, and drain cleaning. Freds General Plumbing is committed to providing Plano homeowners with prompt, reliable, and affordable plumbing services.",
+        "localContext": "Plano is characterized by established subdivisions primarily built in the 1980s and 1990s. The climate is known for its hot, humid summers.",
+        "nearbyAreas": [
+          "Richardson",
+          "Allen",
+          "Frisco"
+        ]
+      },
+      {
+        "city": "Frisco",
+        "slug": "frisco-tx",
+        "state": "TX",
+        "content": "Freds General Plumbing proudly serves the rapidly growing city of Frisco, Texas. Known for its newer construction homes built from the 2000s to the 2020s, Frisco presents unique plumbing needs related to modern systems and evolving technologies. We are experienced in installing and maintaining the latest plumbing fixtures and appliances, ensuring your home is equipped with the most efficient and reliable systems.\n\nWe understand the impact of the hot, humid summers on Frisco's plumbing infrastructure and offer solutions to prevent damage and ensure optimal performance. From water softener installation to whole-house repiping, Freds General Plumbing is committed to providing Frisco homeowners with exceptional service and quality workmanship. We're dedicated to keeping your plumbing system running smoothly for years to come.",
+        "localContext": "Frisco is known for its newer construction homes built from the 2000s to the 2020s. The climate features hot, humid summers.",
+        "nearbyAreas": [
+          "Plano",
+          "McKinney",
+          "The Colony"
+        ]
+      },
+      {
+        "city": "McKinney",
+        "slug": "mckinney-tx",
+        "state": "TX",
+        "content": "Freds General Plumbing is delighted to serve the historic city of McKinney, Texas. With its charming historic downtown homes and growing residential areas, McKinney presents a diverse range of plumbing needs. We specialize in servicing the older homes in the historic district, preserving their character while ensuring their plumbing systems are safe and efficient.\n\nWe are also experienced in handling the plumbing needs of newer homes in McKinney, offering a full range of services from routine maintenance to emergency repairs. Freds General Plumbing understands the challenges posed by the hot, humid summers and offers solutions to protect your plumbing from the elements. We are committed to providing McKinney residents with reliable, affordable, and professional plumbing services.",
+        "localContext": "McKinney features a mix of historic downtown homes and newer residential areas. The climate is characterized by hot, humid summers.",
+        "nearbyAreas": [
+          "Allen",
+          "Frisco",
+          "Prosper"
+        ]
+      },
+      {
+        "city": "Arlington",
+        "slug": "arlington-tx",
+        "state": "TX",
+        "content": "Freds General Plumbing is your trusted local plumber in Arlington, Texas. We're committed to providing top-quality plumbing services to homeowners and businesses throughout the city. Whether you're dealing with a leaky faucet, a clogged drain, or a more complex plumbing issue, our experienced technicians are here to help.\n\nWe understand the unique plumbing needs of Arlington residents and offer a wide range of services to meet those needs. From routine maintenance to emergency repairs, we're available 24/7 to ensure your plumbing system is running smoothly. Freds General Plumbing is dedicated to providing exceptional customer service and reliable workmanship.",
+        "localContext": "Arlington is a diverse city with a mix of residential and commercial properties. It experiences hot summers and mild winters.",
+        "nearbyAreas": [
+          "Grand Prairie",
+          "Mansfield",
+          "Euless"
+        ]
+      },
+      {
+        "city": "Irving",
+        "slug": "irving-tx",
+        "state": "TX",
+        "content": "Freds General Plumbing is proud to serve the residents and businesses of Irving, Texas. As a growing city with a diverse population, Irving presents a variety of plumbing needs. We are equipped to handle everything from residential repairs to commercial installations, providing reliable and efficient service to our customers.\n\nWe understand the challenges posed by the Texas climate and offer solutions to protect your plumbing system from extreme temperatures. Whether you need a water heater replacement, drain cleaning, or emergency plumbing assistance, Freds General Plumbing is here to help. We are committed to providing Irving with quality workmanship and exceptional customer service.",
+        "localContext": "Irving is a diverse city with a mix of residential and commercial properties. It experiences hot summers and mild winters.",
+        "nearbyAreas": [
+          "Dallas",
+          "Grand Prairie",
+          "Euless"
+        ]
+      },
+      {
+        "city": "Grand Prairie",
+        "slug": "grand-prairie-tx",
+        "state": "TX",
+        "content": "Freds General Plumbing is delighted to offer comprehensive plumbing services to the residents of Grand Prairie, Texas. With a mix of established neighborhoods and new developments, Grand Prairie presents a variety of plumbing needs. We are experienced in handling a wide range of plumbing issues, from routine maintenance to emergency repairs.\n\nOur team is well-equipped to handle the demands of the Texas climate, especially the hot summers. We offer services such as leak detection, water heater maintenance, and drain cleaning to keep your plumbing system running smoothly. Freds General Plumbing is committed to providing Grand Prairie homeowners with prompt, reliable, and affordable plumbing services.",
+        "localContext": "Grand Prairie features a mix of established neighborhoods and new developments. The climate is known for its hot summers.",
+        "nearbyAreas": [
+          "Arlington",
+          "Irving",
+          "Dallas"
+        ]
+      },
+      {
+        "city": "Allen",
+        "slug": "allen-tx",
+        "state": "TX",
+        "content": "Freds General Plumbing is pleased to provide Allen, Texas with top-notch plumbing services. Allen's growing community of both older and newer homes requires a wide range of plumbing solutions, and we are experts in addressing them all, from leaky pipes to complete re-piping projects. We understand that plumbing issues can be stressful, so we strive to provide prompt, reliable, and efficient service to every customer.\n\nOur team is well-versed in the challenges posed by the Texas climate and offers proactive solutions to protect your plumbing system. Whether you need a new water heater, drain cleaning, or emergency plumbing assistance, Freds General Plumbing is committed to providing Allen residents with quality workmanship and exceptional customer service. We are dedicated to exceeding your expectations and ensuring your complete satisfaction.",
+        "localContext": "Allen is a growing city with a mix of established and newer homes. The climate is characterized by hot, humid summers.",
+        "nearbyAreas": [
+          "Plano",
+          "McKinney",
+          "Fairview"
+        ]
+      },
+      {
+        "city": "Richardson",
+        "slug": "richardson-tx",
+        "state": "TX",
+        "content": "Freds General Plumbing is proud to serve the community of Richardson, Texas, offering comprehensive plumbing solutions for both residential and commercial properties. With a diverse range of housing styles and business establishments, Richardson presents unique plumbing challenges that our experienced technicians are well-equipped to handle. From older homes requiring specialized repairs to modern buildings in need of efficient installations, we have the expertise to meet your specific needs.\n\nWe understand the importance of a reliable plumbing system in Richardson's hot and humid climate. Our services include leak detection, drain cleaning, water heater maintenance, and more. Freds General Plumbing is committed to providing prompt, professional, and affordable service to all our customers in Richardson. We prioritize your satisfaction and strive to exceed your expectations with every job.",
+        "localContext": "Richardson features a mix of residential and commercial properties, with diverse plumbing needs. The climate is known for its hot, humid summers.",
+        "nearbyAreas": [
+          "Plano",
+          "Garland",
+          "Dallas"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Alice M.",
+        "rating": 5,
+        "service": "Water Heater Replacement",
+        "text": "Freds General Plumbing replaced my old water heater quickly and efficiently. The technician was professional and explained everything clearly. I highly recommend them!",
+        "date": "2024-11-15"
+      },
+      {
+        "name": "Bob K.",
+        "rating": 4,
+        "service": "Drain Cleaning",
+        "text": "I had a stubborn clogged drain that I couldn't clear myself. Freds General Plumbing came out and cleared it in no time. The price was reasonable, and the service was excellent.",
+        "date": "2024-10-28"
+      },
+      {
+        "name": "Carol S.",
+        "rating": 5,
+        "service": "Leak Detection",
+        "text": "I suspected I had a hidden leak, and Freds General Plumbing was able to find it and repair it quickly. They saved me a lot of money and potential damage. Thank you!",
+        "date": "2024-09-10"
+      },
+      {
+        "name": "David L.",
+        "rating": 5,
+        "service": "Sewer Line Repair",
+        "text": "My sewer line was backed up, and Freds General Plumbing was able to repair it without digging up my entire yard. They were professional, efficient, and reasonably priced. I highly recommend them!",
+        "date": "2024-08-05"
+      },
+      {
+        "name": "Emily R.",
+        "rating": 4,
+        "service": "Faucet Installation",
+        "text": "Freds General Plumbing installed a new faucet in my bathroom. They were on time, professional, and did a great job. I'm very happy with the results.",
+        "date": "2024-07-20"
+      },
+      {
+        "name": "Frank T.",
+        "rating": 5,
+        "service": "Gas Line Repair",
+        "text": "I had a gas leak, and Freds General Plumbing responded quickly and repaired it safely. They were professional, knowledgeable, and gave me peace of mind.",
+        "date": "2024-06-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Freds Plumbing | Arlington TX Plumber",
+        "description": "Trusted plumbing services in Arlington, TX. 24/7 emergency plumbing, repairs, water heaters, drain cleaning, and more. Call now!"
+      },
+      "about": {
+        "title": "About Freds Plumbing | Arlington TX",
+        "description": "Learn about Freds General Plumbing, Arlington TX's dedicated plumbing company. Reliable service, experienced technicians, and community focused."
+      },
+      "services": {
+        "title": "Plumbing Services | Arlington TX",
+        "description": "Comprehensive plumbing services in Arlington TX. Drain cleaning, water heater repair, leak detection, pipe repair & more. Get a free quote!"
+      },
+      "contact": {
+        "title": "Contact Freds Plumbing | Arlington TX",
+        "description": "Contact Freds General Plumbing for all your plumbing needs in Arlington TX. Call us for fast, reliable service and expert solutions."
+      },
+      "reviews": {
+        "title": "Freds Plumbing Reviews | Arlington TX",
+        "description": "Read reviews for Freds General Plumbing in Arlington TX. See what our satisfied customers say about our plumbing services."
+      },
+      "service-areas": {
+        "title": "Service Areas | Freds Plumbing TX",
+        "description": "Freds General Plumbing provides plumbing services in Dallas, Fort Worth, Plano, Frisco, McKinney, and Arlington, TX. Call today!"
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "drain-cleaning": "/images/service-drain-cleaning.webp",
+      "water-heater-repair": "/images/service-water-heater-repair.webp",
+      "leak-detection": "/images/service-leak-detection.webp",
+      "pipe-repair": "/images/service-pipe-repair.webp",
+      "sewer-line-services": "/images/service-sewer-line-services.webp",
+      "fixture-installation": "/images/service-fixture-installation.webp",
+      "gas-line-services": "/images/service-gas-line-services.webp"
+    },
+    "servicesResponsive": {
+      "drain-cleaning": {
+        "src": "/images/service-drain-cleaning.webp",
+        "srcset": "/images/service-drain-cleaning-400w.webp 400w, /images/service-drain-cleaning-800w.webp 800w, /images/service-drain-cleaning-1200w.webp 1200w, /images/service-drain-cleaning.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "water-heater-repair": {
+        "src": "/images/service-water-heater-repair.webp",
+        "srcset": "/images/service-water-heater-repair-400w.webp 400w, /images/service-water-heater-repair-800w.webp 800w, /images/service-water-heater-repair-1200w.webp 1200w, /images/service-water-heater-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "leak-detection": {
+        "src": "/images/service-leak-detection.webp",
+        "srcset": "/images/service-leak-detection-400w.webp 400w, /images/service-leak-detection-800w.webp 800w, /images/service-leak-detection-1200w.webp 1200w, /images/service-leak-detection.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pipe-repair": {
+        "src": "/images/service-pipe-repair.webp",
+        "srcset": "/images/service-pipe-repair-400w.webp 400w, /images/service-pipe-repair-800w.webp 800w, /images/service-pipe-repair-1200w.webp 1200w, /images/service-pipe-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "sewer-line-services": {
+        "src": "/images/service-sewer-line-services.webp",
+        "srcset": "/images/service-sewer-line-services-400w.webp 400w, /images/service-sewer-line-services-800w.webp 800w, /images/service-sewer-line-services-1200w.webp 1200w, /images/service-sewer-line-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "fixture-installation": {
+        "src": "/images/service-fixture-installation.webp",
+        "srcset": "/images/service-fixture-installation-400w.webp 400w, /images/service-fixture-installation-800w.webp 800w, /images/service-fixture-installation-1200w.webp 1200w, /images/service-fixture-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "gas-line-services": {
+        "src": "/images/service-gas-line-services.webp",
+        "srcset": "/images/service-gas-line-services-400w.webp 400w, /images/service-gas-line-services-800w.webp 800w, /images/service-gas-line-services-1200w.webp 1200w, /images/service-gas-line-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
